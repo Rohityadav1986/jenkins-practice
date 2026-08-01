@@ -1,6 +1,7 @@
 "resources": [
     {
         "name": "storageaccount1",
+        location": "[resourceGroup().location]",
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2025-06-01",
         "tags": {
