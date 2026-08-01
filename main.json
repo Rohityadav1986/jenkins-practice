@@ -1,0 +1,17 @@
+"resources": [
+    {
+        "name": "storageaccount1",
+        "type": "Microsoft.Storage/storageAccounts",
+        "apiVersion": "2025-06-01",
+        "tags": {
+            "displayName": "storageaccount1"
+        },
+        "location": "[resourceGroup().location]",
+        "kind": "StorageV2",
+        "sku": {
+            "name": "Premium_LRS",
+            "tier": "Premium"
+        }
+    }
+],
+
