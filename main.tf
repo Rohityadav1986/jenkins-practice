@@ -9,7 +9,7 @@ terraform {
 
   backend "azurerm" {
     resource_group_name   = "rg-terraform-backend"   # Name of the resource group
-    storage_account_name  = "tfstatebackend123"      # Storage account (must be globally unique)
+    storage_account_name  = "tfstatebackend198"      # Storage account (must be globally unique)
     container_name        = "tfstate"                # Blob container inside the storage account
     key                   = "jenkins-aks.tfstate"    # Name of the state file
   }
